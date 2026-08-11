@@ -1,0 +1,54 @@
+.header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-section{
+display: flex;
+align-items: center;
+}
+.middle-section{
+background-color: lightpink;
+flex: 1;
+max-width: 500px;
+margin-left: 70px;
+margin-right: 30px;
+display: flex;
+align-items: center;
+}
+.right-section{
+background-color: lightblue;
+width: 200px;
+}
+.hamburger-menu{
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.yt-logo{
+    height: 21px;
+}
+.search{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+.search::placeholder{
+    font-family: roboto,Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.mic-button{
+    height: 35px;
+    width: 35px;
+}
+.search-bar{
+    flex: 1;
+    height: 30px;
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+
+}
