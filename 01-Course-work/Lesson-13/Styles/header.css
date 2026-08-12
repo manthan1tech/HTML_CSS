@@ -9,17 +9,19 @@ display: flex;
 align-items: center;
 }
 .middle-section{
-background-color: lightpink;
 flex: 1;
-max-width: 500px;
+max-width: 600px;
 margin-left: 70px;
 margin-right: 30px;
 display: flex;
 align-items: center;
 }
 .right-section{
-background-color: lightblue;
 width: 200px;
+display: flex;
+align-items: center;
+justify-content: end;
+flex-shrink: 0;
 }
 .hamburger-menu{
     height: 25px;
@@ -30,25 +32,53 @@ width: 200px;
     height: 21px;
 }
 .search{
-    height: 35px;
-    width: 35px;
-    border-radius: 20px;
+    height: 43px;
+    width: 43px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius:22px ;
     border-style: solid;
     border-width: 1px;
+    margin-right: 20px;
+    border-color: rgb(192, 192,192);
+
 }
 .search::placeholder{
     font-family: roboto,Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 .mic-button{
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border-style: none;
 }
 .search-bar{
     flex: 1;
-    height: 30px;
+    height: 40px;
+    font-size: 18px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius:25px ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192,192);
+    width: 0;
+}
+.dot{
+    height: 25px;
+    width: 25px;
+}
+.signin{
+    margin-left: 25px;
+    margin-right: 30px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:#065fd4;
+    font-weight: bold;
     border-radius: 25px;
     border-width: 1px;
     border-style: solid;
-
+    border-color: gray;
 }
