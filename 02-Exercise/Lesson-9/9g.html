@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <title>Lesson9-Div element</title>
+    <style>
+        
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .pfp{
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+            object-position: right;
+        }
+        .name{
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 8px;
+            margin-bottom: 4px;
+        }
+        .mutual{
+            color: rgb(100, 100, 100);
+            margin-left: 8px;
+            margin-bottom: 12px;
+        }
+        .add{
+            background-color: rgb(24, 119, 242);
+            color: white;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-left: 8px;
+            margin-bottom: 10px;
+        }
+        .container{
+           width: 200px;
+           display: inline-block;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 3);
+            margin-left: 30px;
+        }
+        .user-info{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+        <img src="random.avif" alt="" class="pfp">
+        </div>
+       <div class="user-info">
+        <p class="name">Emma</p>
+        <p class="mutual">2 mutual friend</p>
+        <button class="add">Add Friend</button>
+       </div>
+    </div>
+
+    <div class="container">
+        <div>
+        <img src="izumi.jpg" alt="" class="pfp">
+        </div>
+       <div class="user-info">
+        <p class="name">Izumi Miyamora</p>
+        <p class="mutual">20 mutual friend</p>
+        <button class="add">Add Friend</button>
+       </div>
+    </div>
+
+    <div class="container">
+        <div>
+        <img src="Hori.jpg" alt="" class="pfp">
+        </div>
+       <div class="user-info">
+        <p class="name">Kyuko Hori</p>
+        <p class="mutual">10 mutual friend</p>
+        <button class="add">Add Friend</button>
+       </div>
+    </div>
+    
+</body>
+</html>
